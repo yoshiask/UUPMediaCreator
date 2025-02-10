@@ -9,4 +9,10 @@
     <ItemGroup>
         <PackageReference Include="SharpZipLib" Version="1.4.2" />
     </ItemGroup>
+    <ItemGroup>
+      <PackageReference Update="NuGetizer" Version="1.2.4">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
 </Project>

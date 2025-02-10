@@ -4,4 +4,10 @@
         <Platforms>AnyCPU;x64;x86;arm64</Platforms>
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Update="NuGetizer" Version="1.2.4">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
 </Project>

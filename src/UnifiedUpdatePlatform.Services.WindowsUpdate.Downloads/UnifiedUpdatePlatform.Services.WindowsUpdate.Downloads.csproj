@@ -5,10 +5,16 @@
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="System.Text.Json" Version="8.0.4" />
+        <PackageReference Include="System.Text.Json" Version="9.0.1" />
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\CompDB\UnifiedUpdatePlatform.Services.Composition.Database.csproj" />
         <ProjectReference Include="..\UnifiedUpdatePlatform.Services.WindowsUpdate\UnifiedUpdatePlatform.Services.WindowsUpdate.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Update="NuGetizer" Version="1.2.4">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      </PackageReference>
     </ItemGroup>
 </Project>
